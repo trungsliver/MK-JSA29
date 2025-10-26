@@ -1,0 +1,125 @@
+.container {
+    display: grid;
+    background-color: aquamarine;
+    /* mỗi auto là 1 cột, kích thước bằng nhau */
+    grid-template-columns: auto auto;
+
+    /* Thay đổi kích thước các cột */
+    /* grid-template-columns: 100px 500px; */
+
+    /* Thay đổi kích thước các dòng */
+    /* grid-template-rows: auto; */
+
+    /* Khoảng cách giữa các cột */
+    grid-column-gap: 20px;
+    /* Khoảng cách giữa các dòng */
+    grid-row-gap: 15px;
+    /* 2 dòng trên có thể viết gọn lại */
+    grid-gap: 15px 20px;
+
+}
+
+.item {
+    background-color: lightsalmon;
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+.container2 div {
+    background-color: rgb(246, 187, 163);
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+.container2 {
+    display: grid;
+    background-color: aquamarine;
+    grid-template-columns: auto auto auto;
+}
+
+/* Gộp hàng */
+/* .item1, .item2 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+} */
+
+/* Gộp cột */
+/* .item7 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+} */
+
+/* Thực hành */
+.container3 div{
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+.container3 {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    /* Chia 7 cột - 7 hàng */
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.item1, .item2 {
+    grid-row: 1 / 4;
+}
+
+.item2 {
+    grid-column: 2 / 4;
+}
+
+.item3 {
+    grid-row: 1 / 3;
+    grid-column: 4 / 7;
+}
+
+.item6 {
+    grid-column: 4 / 7;
+}
+
+.item8 {
+    grid-column: 1 / 3;
+    grid-row: 4 / 7;
+}
+
+.item9 {
+    grid-column: 3 / 5;
+    grid-row: 4 / 6;
+}
+
+.item10 {
+    grid-column: 5 / 8;
+}
+
+.item11 {
+    grid-column: 5 / 8;
+    grid-row: 5 / 7;
+}
+
+.item12 {
+    grid-column: 3 / 5;
+    grid-row: 6 / 8;
+}
+
+.item13 {
+    grid-column: 1 / 3;
+}
+
+.item14 {
+    grid-column: 5 / 8;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: rgb(229, 211, 47);
+}
