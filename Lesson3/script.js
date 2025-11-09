@@ -33,3 +33,15 @@ myP.textContent = "Hải meme ăn sáng trong lớp - textContent";
     // style: thay đổi CSS của phần tử
 header.style.color = "darkred";
 header.style.fontFamily = "Momo Signature";
+
+    // setAttribute: thêm hoặc sửa thuộc tính của phần tử
+myP.setAttribute("class", "momo-signature-regular");
+
+    // Tạo phần tử mới
+let newDiv = document.createElement("div");
+newDiv.setAttribute("class", "container");
+
+    // Thêm phần tử vào trang
+document.body.appendChild(newDiv);
+
+// ============ THỰC HÀNH ============
