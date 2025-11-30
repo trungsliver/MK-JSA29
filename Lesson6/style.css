@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+    color: #333;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin: 30px 0 20px 0;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style: none;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    padding: 0;
+}
+
+li {
+    background: white;
+    margin: 12px 0;
+    padding: 18px 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border-left: 4px solid #667eea;
+}
+
+li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    border-left-color: #764ba2;
+}
+
+#student-list li {
+    border-left-color: #48bb78;
+}
+
+#student-list li:hover {
+    border-left-color: #38a169;
+}
+
+#todo-list li {
+    border-left-color: #ed8936;
+}
+
+#todo-list li:hover {
+    border-left-color: #dd6b20;
+}
+
+#user-list li {
+    border-left-color: #4299e1;
+}
+
+#user-list li:hover {
+    border-left-color: #3182ce;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    h2 {
+        font-size: 22px;
+    }
+    
+    li {
+        padding: 14px 18px;
+        font-size: 14px;
+    }
+}
