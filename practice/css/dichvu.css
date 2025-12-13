@@ -1,0 +1,71 @@
+/* ============================
+   SERVICES PAGE STYLE
+   ============================ */
+/* 
+main {
+    margin-top: 80px;
+} */
+/* ============================
+   SERVICES PAGE STYLE
+   ============================ */
+
+.services-hero {
+    background: url('../assets/service-banner.jpg') center/cover no-repeat;
+    padding: 120px 0;
+}
+
+/* Ảnh dịch vụ */
+.service-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Card */
+.service-card {
+    background: #fff;
+    border-radius: 14px;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Icon vòng tròn */
+.service-icon {
+    font-size: 2rem;
+    background: #fcedde;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    line-height: 75px;
+    display: inline-block;
+    color: #bf8f63;
+}
+
+/* Service row */
+.service-row {
+    background: #fff;
+    border-radius: 14px;
+    transition: 0.3s;
+}
+
+.service-row:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+
+.service-row-icon {
+    font-size: 2.4rem;
+    color: #bf8f63;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .service-img {
+        height: 140px;
+    }
+}

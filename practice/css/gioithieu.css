@@ -1,0 +1,53 @@
+/* ============================
+   ABOUT PAGE STYLE
+   ============================ */
+/* Hero */
+.about-hero {
+    background: url('../assets/service-banner.jpg') center/cover no-repeat;
+    padding: 130px 0;
+}
+
+.text-main {
+    color: #bf8f63;
+}
+
+/* Value card */
+.value-card {
+    border-radius: 14px;
+    background: #fff;
+    transition: 0.3s;
+}
+
+.value-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.1);
+}
+
+.value-icon {
+    font-size: 2.4rem;
+    color: #bf8f63;
+}
+
+/* Team */
+.team-card {
+    border-radius: 14px;
+    background: #fff;
+}
+
+.team-img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-hero {
+        padding: 90px 0;
+        text-align: center;
+    }
+    .team-img {
+        height: 200px;
+    }
+}

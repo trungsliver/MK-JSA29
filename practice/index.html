@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nội Thất Luxury</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/header-footer.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top custom-navbar">
+            <div class="container">
+
+                <!-- Logo + Tên shop -->
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="./assets/logo.jpg" alt="Logo Nội Thất" class="logo">
+                    <span class="shop-name">Luxury Interior</span>
+                </a>
+
+                <!-- Button mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gioithieu.html">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sanpham.html">Sản phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dichvu.html">Dịch vụ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lienhe.html">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- ===== CAROUSEL ===== -->
+        <section class="banner">
+            <div id="mainCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/banner1.png" class="d-block w-100" alt="Nội thất cao cấp">
+                        <div class="carousel-caption">
+                            <h2>Không Gian Sống Đẳng Cấp</h2>
+                            <p>Thiết kế tinh tế – Chất lượng vượt trội</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/banner2.webp" class="d-block w-100" alt="Nội thất hiện đại">
+                        <div class="carousel-caption">
+                            <h2>Nội Thất Hiện Đại</h2>
+                            <p>Giải pháp hoàn hảo cho ngôi nhà của bạn</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/banner3.webp" class="d-block w-100" alt="Nội thất hiện đại">
+                        <div class="carousel-caption">
+                            <h2>Nội Thất Hiện Đại</h2>
+                            <p>Giải pháp hoàn hảo cho ngôi nhà của bạn</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+
+        <!-- ===== SẢN PHẨM BÁN CHẠY ===== -->
+        <section class="product-section">
+            <div class="container">
+                <h3 class="section-title">Sản Phẩm Bán Chạy</h3>
+
+                <div class="row">
+                    <!-- Product card -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="product-card">
+                            <img src="./assets/product1.jpg" alt="">
+                            <div class="product-body">
+                                <h6>Sofa Da Cao Cấp</h6>
+                                <p class="price">
+                                    <span class="price-old">25.000.000đ</span>
+                                    <span class="price-new">21.900.000đ</span>
+                                </p>
+                                <a href="#" class="btn-buy">Mua ngay</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Copy card -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="product-card">
+                            <img src="./assets/product1.jpg" alt="">
+                            <div class="product-body">
+                                <h6>Bàn Trà Gỗ Óc Chó</h6>
+                                <p class="price">
+                                    <span class="price-old">12.000.000đ</span>
+                                    <span class="price-new">9.800.000đ</span>
+                                </p>
+                                <a href="#" class="btn-buy">Mua ngay</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="product-card">
+                            <img src="./assets/product1.jpg" alt="">
+                            <div class="product-body">
+                                <h6>Giường Ngủ Hiện Đại</h6>
+                                <p class="price">
+                                    <span class="price-old">30.000.000đ</span>
+                                    <span class="price-new">26.500.000đ</span>
+                                </p>
+                                <a href="#" class="btn-buy">Mua ngay</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="product-card">
+                            <img src="./assets/product1.jpg" alt="">
+                            <div class="product-body">
+                                <h6>Tủ Quần Áo Gỗ Tự Nhiên</h6>
+                                <p class="price">
+                                    <span class="price-old">18.000.000đ</span>
+                                    <span class="price-new">15.900.000đ</span>
+                                </p>
+                                <a href="#" class="btn-buy">Mua ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SẢN PHẨM KHUYẾN MÃI ===== -->
+        <section class="product-section bg-light">
+            <div class="container">
+                <h3 class="section-title">Sản Phẩm Khuyến Mãi</h3>
+
+                <div class="row">
+                    <!-- Product card -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="product-card">
+                            <img src="./assets/product1.jpg" alt="">
+                            <div class="product-body">
+                                <h6>Bàn Ăn Gia Đình</h6>
+                                <p class="price">
+                                    <span class="price-old">20.000.000đ</span>
+                                    <span class="price-new">16.500.000đ</span>
+                                </p>
+                                <a href="#" class="btn-buy">Mua ngay</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product card -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="product-card">
+                            <img src="./assets/product1.jpg" alt="">
+                            <div class="product-body">
+                                <h6>Bàn Ăn Gia Đình</h6>
+                                <p class="price">
+                                    <span class="price-old">20.000.000đ</span>
+                                    <span class="price-new">16.500.000đ</span>
+                                </p>
+                                <a href="#" class="btn-buy">Mua ngay</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product card -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="product-card">
+                            <img src="./assets/product1.jpg" alt="">
+                            <div class="product-body">
+                                <h6>Bàn Ăn Gia Đình</h6>
+                                <p class="price">
+                                    <span class="price-old">20.000.000đ</span>
+                                    <span class="price-new">16.500.000đ</span>
+                                </p>
+                                <a href="#" class="btn-buy">Mua ngay</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product card -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="product-card">
+                            <img src="./assets/product1.jpg" alt="">
+                            <div class="product-body">
+                                <h6>Bàn Ăn Gia Đình</h6>
+                                <p class="price">
+                                    <span class="price-old">20.000.000đ</span>
+                                    <span class="price-new">16.500.000đ</span>
+                                </p>
+                                <a href="#" class="btn-buy">Mua ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <!-- Thông tin thương hiệu -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="footer-title">Luxury Interior</h5>
+                    <p class="footer-text">
+                        Chuyên thiết kế & thi công nội thất cao cấp cho nhà ở, căn hộ,
+                        biệt thự và văn phòng. Mang đến không gian sống tinh tế và bền vững.
+                    </p>
+                </div>
+
+                <!-- Menu nhanh -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="footer-heading">Liên kết</h6>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="gioithieu.html">Giới thiệu</a></li>
+                        <li><a href="sanpham.html">Sản phẩm</a></li>
+                        <li><a href="dichvu.html">Dịch vụ</a></li>
+                        <li><a href="lienhe.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Dịch vụ -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h6 class="footer-heading">Dịch vụ</h6>
+                    <ul class="footer-links">
+                        <li>Thiết kế nội thất</li>
+                        <li>Thi công trọn gói</li>
+                        <li>Tư vấn không gian</li>
+                        <li>Bảo hành – bảo trì</li>
+                    </ul>
+                </div>
+
+                <!-- Liên hệ -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h6 class="footer-heading">Liên hệ</h6>
+                    <p class="footer-contact">
+                        <i class="bi bi-geo-alt"></i> 123 Nguyễn Văn A, TP. HCM
+                    </p>
+                    <p class="footer-contact">
+                        <i class="bi bi-telephone"></i> 0909 123 456
+                    </p>
+                    <p class="footer-contact">
+                        <i class="bi bi-envelope"></i> info@luxuryinterior.vn
+                    </p>
+
+                    <!-- Social -->
+                    <div class="footer-social">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom text-center">
+                © 2025 Luxury Interior. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

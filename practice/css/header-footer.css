@@ -1,0 +1,140 @@
+/* ================ HEADER ==================== */
+/* Reset nhẹ */
+body {
+    padding-top: 80px; /* tránh navbar che nội dung */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar custom */
+.custom-navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Logo */
+.logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+/* Tên shop */
+.shop-name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2c2c2c;
+    letter-spacing: 1px;
+}
+
+/* Menu link */
+.navbar-nav .nav-link {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    padding: 8px 15px;
+    transition: all 0.3s ease;
+}
+
+/* Hover menu */
+.navbar-nav .nav-link:hover {
+    color: #a67c52; /* màu nâu sang trọng */
+}
+
+/* Active (nếu cần tự thêm class active) */
+.navbar-nav .nav-link.active {
+    color: #a67c52;
+    font-weight: 600;
+}
+
+/* Mobile */
+@media (max-width: 991px) {
+    .shop-name {
+        font-size: 18px;
+    }
+}
+
+/* ================ FOOTER ==================== */
+.footer {
+    background-color: #1f1f1f;
+    color: #cccccc;
+    padding: 60px 0 30px;
+    font-size: 14px;
+}
+
+.footer-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.footer-heading {
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.footer-text {
+    line-height: 1.7;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #cccccc;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #a67c52; /* tone nâu sang trọng */
+}
+
+.footer-contact {
+    margin-bottom: 10px;
+}
+
+.footer-contact i {
+    margin-right: 8px;
+    color: #a67c52;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #cccccc;
+    transition: color 0.3s;
+}
+
+.footer-social a:hover {
+    color: #a67c52;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 30px;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #999999;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer-social {
+        margin-top: 15px;
+    }
+}

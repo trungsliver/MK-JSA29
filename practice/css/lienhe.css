@@ -1,0 +1,85 @@
+.contact-section {
+    padding: 70px 0;
+    background-color: #f8f8f8;
+}
+
+/* Box chung */
+.contact-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    height: 100%;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Tiêu đề */
+.section-title {
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #2c2c2c;
+}
+
+/* Form */
+.form-label {
+    font-weight: 500;
+}
+
+.form-control,
+.form-select {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #a67c52;
+    box-shadow: none;
+}
+
+/* Button */
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    border-radius: 30px;
+    border: none;
+    background-color: #a67c52;
+    color: #ffffff;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #8b623d;
+}
+
+/* Thông tin liên hệ */
+.contact-item {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.contact-item i {
+    margin-right: 10px;
+    color: #a67c52;
+    font-size: 18px;
+}
+
+/* Map */
+.map-box {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.map-box iframe {
+    width: 100%;
+    height: 260px;
+    border: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 40px 0;
+    }
+}
