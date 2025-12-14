@@ -1,4 +1,4 @@
-const API_KEY = "API_KEY";
+const API_KEY = "AIzaSyA4FJ33rcpHG2lV5B2dzi2klYQLAAr3JcQ";
 
 function addMessage(text, className) {
     const chatBox = document.getElementById("chat-box");

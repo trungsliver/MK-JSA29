@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <title>Gemini AI Chatbox</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="chat-container">
-    <h2>🤖 Gemini AI Chat</h2>
+    <div class="chat-container">
+        <h2>🤖 Gemini AI Chat</h2>
 
-    <div id="chat-box"></div>
+        <div id="chat-box"></div>
 
-    <div class="input-box">
-        <input type="text" id="user-input" placeholder="Nhập câu hỏi...">
-        <button onclick="sendMessage()">Gửi</button>
+        <div class="input-box">
+            <input type="text" id="user-input" placeholder="Nhập câu hỏi...">
+            <button onclick="sendMessage()">Gửi</button>
+        </div>
     </div>
-</div>
 
-<script src="./script.js"></script>
+    <script src="./script.js"></script>
+    <script>
+        (function () { if (!window.chatbase || window.chatbase("getState") !== "initialized") { window.chatbase = (...arguments) => { if (!window.chatbase.q) { window.chatbase.q = [] } window.chatbase.q.push(arguments) }; window.chatbase = new Proxy(window.chatbase, { get(target, prop) { if (prop === "q") { return target.q } return (...args) => target(prop, ...args) } }) } const onLoad = function () { const script = document.createElement("script"); script.src = "https://www.chatbase.co/embed.min.js"; script.id = "jnWPYfM4aU-zuPi299gU7"; script.domain = "www.chatbase.co"; document.body.appendChild(script) }; if (document.readyState === "complete") { onLoad() } else { window.addEventListener("load", onLoad) } })();
+    </script>
 </body>
+
 </html>
