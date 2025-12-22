@@ -1,0 +1,16 @@
+Quy tắc đặt tên folder cho CP1: [TenLop]_[HoTen]_CP2
+Ví dụ: JSA29_BuiDucTrung_CP2
+
+Các file có trong folder:
+- index.html 
+- style.css
+- script.js
+- tracnghiem.txt (ghi các đáp án trắc nghiệm vào file này)
+
+========= KẾT QUẢ =======
+Khải Hưng: nghỉ học
+Phan Anh: 8 8 = 8
+Minh Tâm: 7 8 = 7.5
+Hoàng Long: 6 8 = 7
+Đình Nguyên: 6 8 = 7
+Minh Hải: 8 9 = 8.5
