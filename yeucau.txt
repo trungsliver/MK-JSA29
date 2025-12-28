@@ -1,0 +1,10 @@
+Yêu cầu làm SPCK
+
+- Website có tối thiểu 4 webpage
+- Header & footer các trang đồng nhất
+- Có responsive (khuyến khích sử dụng bootstrap)
+- Có chức năng (viết bằng JS): 
+    + đăng ký/đăng nhập
+    + sử dụng API (nếu khó quá thì có thể lấy data từ 1 file JS - đã hướng dẫn trong lesson6)
+    + sử dụng local storage
+    + Khác (sáng tạo): dark/light mode
