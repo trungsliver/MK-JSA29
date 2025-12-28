@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nội Thất LuxHome</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/header-footer.css">
+    <link rel="stylesheet" href="./css/sanpham.css">
+</head>
+
+<body>
+    <!-- ================== HEADER ==================== -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+            <!-- Logo + Tên -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="./assets/logo.jpg" alt="LuxHome Logo" class="logo">
+                <span class="brand-name">LuxHome</span>
+            </a>
+
+            <!-- Button mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sanpham.html">Sản phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gioithieu.html">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dichvu.html">Dịch vụ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lienhe.html">Liên hệ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-account" href="taikhoan.html">Tài khoản</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================== MAIN CONTENT ==================== -->
+    <main>
+        <section class="product-section py-5">
+            <div class="container">
+
+                <!-- Tiêu đề -->
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Sản phẩm của chúng tôi</h2>
+                    <p class="section-desc">Khám phá những mẫu nội thất cao cấp được lựa chọn tinh tế cho không gian
+                        sống của bạn.</p>
+                </div>
+
+                <!-- DANH MỤC -->
+                <ul class="nav nav-pills justify-content-center mb-5 gap-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active category-btn" data-bs-toggle="pill" data-bs-target="#dm1"
+                            type="button">Sofa & Ghế</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link category-btn" data-bs-toggle="pill" data-bs-target="#dm2"
+                            type="button">Bàn & Tủ</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link category-btn" data-bs-toggle="pill" data-bs-target="#dm3"
+                            type="button">Trang trí nội thất</button>
+                    </li>
+                </ul>
+
+                <!-- DANH SÁCH SẢN PHẨM -->
+                <div class="tab-content">
+
+                    <!-- DM1 -->
+                    <div class="tab-pane fade show active" id="dm1">
+                        <div class="row g-4">
+
+                            <!-- CARD -->
+                            <div class="col-lg-3 col-md-6">
+                                <div class="product-card">
+                                    <div class="img-wrap">
+                                        <img src="https://rgb.vn/wp-content/uploads/2021/03/rgb-creative-decor-noi-that-furniture.jpg"
+                                            alt="">
+                                    </div>
+                                    <h5 class="product-name">Sofa cao cấp</h5>
+                                    <p class="product-price">12.500.000đ</p>
+                                    <a href="#" class="btn btn-buy">Xem chi tiết</a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="product-card">
+                                    <div class="img-wrap">
+                                        <img src="https://rgb.vn/wp-content/uploads/2021/03/rgb-creative-decor-noi-that-furniture.jpg"
+                                            alt="">
+                                    </div>
+                                    <h5 class="product-name">Ghế thư giãn</h5>
+                                    <p class="product-price">4.900.000đ</p>
+                                    <a href="#" class="btn btn-buy">Xem chi tiết</a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="product-card">
+                                    <div class="img-wrap">
+                                        <img src="https://rgb.vn/wp-content/uploads/2021/03/rgb-creative-decor-noi-that-furniture.jpg"
+                                            alt="">
+                                    </div>
+                                    <h5 class="product-name">Sofa đơn hiện đại</h5>
+                                    <p class="product-price">6.700.000đ</p>
+                                    <a href="#" class="btn btn-buy">Xem chi tiết</a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="product-card">
+                                    <div class="img-wrap">
+                                        <img src="https://rgb.vn/wp-content/uploads/2021/03/rgb-creative-decor-noi-that-furniture.jpg"
+                                            alt="">
+                                    </div>
+                                    <h5 class="product-name">Ghế lounge sang trọng</h5>
+                                    <p class="product-price">8.400.000đ</p>
+                                    <a href="#" class="btn btn-buy">Xem chi tiết</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- DM2 -->
+                    <div class="tab-pane fade" id="dm2">
+                        <div class="row g-4">
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="product-card">
+                                    <div class="img-wrap">
+                                        <img src="https://rgb.vn/wp-content/uploads/2021/03/rgb-creative-decor-noi-that-furniture.jpg"
+                                            alt="">
+                                    </div>
+                                    <h5 class="product-name">Bàn gỗ tự nhiên</h5>
+                                    <p class="product-price">9.500.000đ</p>
+                                    <a href="#" class="btn btn-buy">Xem chi tiết</a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="product-card">
+                                    <div class="img-wrap">
+                                        <img src="https://rgb.vn/wp-content/uploads/2021/03/rgb-creative-decor-noi-that-furniture.jpg"
+                                            alt="">
+                                    </div>
+                                    <h5 class="product-name">Tủ trang trí</h5>
+                                    <p class="product-price">7.300.000đ</p>
+                                    <a href="#" class="btn btn-buy">Xem chi tiết</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- DM3 -->
+                    <div class="tab-pane fade" id="dm3">
+                        <div class="row g-4">
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="product-card">
+                                    <div class="img-wrap">
+                                        <img src="https://rgb.vn/wp-content/uploads/2021/03/rgb-creative-decor-noi-that-furniture.jpg"
+                                            alt="">
+                                    </div>
+                                    <h5 class="product-name">Đèn decor</h5>
+                                    <p class="product-price">2.500.000đ</p>
+                                    <a href="#" class="btn btn-buy">Xem chi tiết</a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="product-card">
+                                    <div class="img-wrap">
+                                        <img src="https://rgb.vn/wp-content/uploads/2021/03/rgb-creative-decor-noi-that-furniture.jpg"
+                                            alt="">
+                                    </div>
+                                    <h5 class="product-name">Bình trang trí cao cấp</h5>
+                                    <p class="product-price">1.900.000đ</p>
+                                    <a href="#" class="btn btn-buy">Xem chi tiết</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- ================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <!-- Giới thiệu -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="footer-title">LuxHome</h5>
+                    <p class="footer-text">
+                        LuxHome – Thương hiệu nội thất cao cấp, mang đến không gian sống
+                        sang trọng, tinh tế và đẳng cấp cho mọi gia đình Việt.
+                    </p>
+                </div>
+
+                <!-- Liên kết nhanh -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="footer-title">Liên kết</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="sanpham.html">Sản phẩm</a></li>
+                        <li><a href="gioithieu.html">Giới thiệu</a></li>
+                        <li><a href="dichvu.html">Dịch vụ</a></li>
+                        <li><a href="lienhe.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Dịch vụ -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="footer-title">Dịch vụ</h5>
+                    <ul class="footer-links">
+                        <li>Thiết kế nội thất</li>
+                        <li>Thi công trọn gói</li>
+                        <li>Bảo hành – bảo trì</li>
+                        <li>Tư vấn phong thủy</li>
+                    </ul>
+                </div>
+
+                <!-- Thông tin liên hệ -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="footer-title">Liên hệ</h5>
+                    <p><i class="bi bi-geo-alt"></i> Hà Nội, Việt Nam</p>
+                    <p><i class="bi bi-telephone"></i> 0988 888 888</p>
+                    <p><i class="bi bi-envelope"></i> info@luxhome.vn</p>
+
+                    <div class="footer-social">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom text-center">
+                © 2025 LuxHome Interior. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/header.js"></script>
+
+</body>
+
+</html>

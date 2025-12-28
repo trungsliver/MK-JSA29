@@ -1,0 +1,126 @@
+/* =======================
+   HOME PAGE
+   ======================= */
+
+/* ------- HERO BANNER ------- */
+.hero-section {
+    background: url("https://rgb.vn/wp-content/uploads/2021/03/rgb-creative-decor-noi-that-furniture.jpg") center/cover no-repeat;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(30, 22, 18, 0.55); /* lớp phủ tối sang trọng */
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+}
+
+.hero-btn {
+    background-color: #bf8f63;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.hero-btn:hover {
+    background-color: #a3724f;
+}
+
+/* Responsive HERO */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    .hero-section {
+        height: 50vh;
+    }
+}
+
+
+/* ------- SECTION TITLES ------- */
+.home-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #4e342e;
+}
+
+.home-subtitle {
+    color: #7a6c63;
+}
+
+
+/* ------- PRODUCT CARDS ------- */
+.home-card {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #e2d8cf;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
+}
+
+.home-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.home-body {
+    padding: 18px;
+    flex-grow: 1;
+}
+
+.home-body h5 {
+    font-weight: 600;
+    color: #4e342e;
+}
+
+.home-body p {
+    color: #7a6c63;
+}
+
+.home-btn {
+    background-color: #bf8f63;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.home-btn:hover {
+    background-color: #a3724f;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .home-img {
+        height: 200px;
+    }
+}

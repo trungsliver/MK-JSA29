@@ -1,0 +1,136 @@
+/* ================== HEADER ==================== */
+/* Navbar tổng thể */
+.navbar-custom {
+    background-color: #1f1f1f;
+    padding: 12px 0;
+}
+
+/* Logo */
+.logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Tên thương hiệu */
+.brand-name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #d4af37; /* vàng sang trọng */
+    letter-spacing: 1px;
+}
+
+/* Menu link */
+.navbar-custom .nav-link {
+    color: #f1f1f1;
+    font-size: 15px;
+    margin-left: 18px;
+    transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+    color: #d4af37;
+}
+
+/* Link tài khoản nổi bật */
+.nav-account {
+    border: 1px solid #d4af37;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+
+/* Mobile */
+.navbar-toggler {
+    border-color: #d4af37;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+/* Đẩy nội dung xuống vì fixed-top */
+body {
+    padding-top: 80px;
+}
+
+/* ================== FOOTER ==================== */
+.footer {
+    background-color: #1f1f1f;
+    color: #dcdcdc;
+    padding: 50px 0 20px;
+    font-size: 14px;
+}
+
+.footer-title {
+    color: #d4af37;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.footer-text {
+    line-height: 1.8;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #dcdcdc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #d4af37;
+}
+
+.footer i {
+    margin-right: 8px;
+    color: #d4af37;
+}
+
+/* Social icons */
+.footer-social a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-color: #2c2c2c;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    margin-right: 8px;
+    color: #d4af37;
+    transition: all 0.3s ease;
+}
+
+.footer-social a:hover {
+    background-color: #d4af37;
+    color: #1f1f1f;
+}
+
+.footer-bottom {
+    border-top: 1px solid #333;
+    margin-top: 30px;
+    padding-top: 15px;
+    font-size: 13px;
+    color: #aaa;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer-social {
+        margin-top: 10px;
+    }
+}

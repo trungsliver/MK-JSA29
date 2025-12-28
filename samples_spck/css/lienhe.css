@@ -1,0 +1,65 @@
+/* Tiêu đề trang */
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2c2c2c;
+}
+
+.section-desc {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Form liên hệ */
+.contact-form {
+    background: #fff;
+    border-left: 4px solid #c19b63;
+}
+
+.contact-form .form-label {
+    font-weight: 500;
+    color: #444;
+}
+
+.btn-send {
+    background-color: #c19b63;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-send:hover {
+    background-color: #a8824e;
+    color: #fff;
+}
+
+/* Thông tin liên hệ */
+.contact-info {
+    background: #fff;
+    border-left: 4px solid #c19b63;
+}
+
+.contact-info .icon {
+    color: #c19b63;
+    font-size: 20px;
+}
+
+.social-links a {
+    font-size: 24px;
+    color: #333;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #c19b63;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+    .section-title {
+        font-size: 26px;
+    }
+}

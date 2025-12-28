@@ -1,0 +1,95 @@
+/* Tiêu đề */
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2c2c2c;
+}
+
+.section-desc {
+    color: #666;
+}
+
+/* Danh mục */
+.category-btn {
+    background-color: #fff !important;
+    border: 1px solid #c19b63 !important;
+    color: #c19b63 !important;
+    padding: 8px 18px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.category-btn.active,
+.category-btn:hover {
+    background-color: #c19b63 !important;
+    color: #fff !important;
+}
+
+/* CARD SẢN PHẨM */
+.product-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+}
+
+/* Ảnh đồng kích thước */
+.img-wrap {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Tên sản phẩm */
+.product-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* Giá */
+.product-price {
+    color: #c19b63;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+/* Nút */
+.btn-buy {
+    background-color: #c19b63;
+    color: #fff;
+    padding: 8px 0;
+    border-radius: 6px;
+    margin-top: auto;
+}
+
+.btn-buy:hover {
+    background-color: #a8824e;
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+    .img-wrap {
+        height: 160px;
+    }
+}
